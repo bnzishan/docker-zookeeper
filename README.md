@@ -37,7 +37,7 @@ services:
     zookeeper1:
         container_name: zookeeper1
         hostname: zk1
-        image: shebao/zk
+        image: fjcanyue/zookeeper
         restart: always
         expose:
             - "2181"
@@ -57,7 +57,7 @@ services:
     zookeeper2:
         container_name: zookeeper2
         hostname: zk2
-        image: shebao/zk
+        image: fjcanyue/zookeeper
         restart: always
         expose:
             - "2181"
@@ -77,7 +77,7 @@ services:
     zookeeper3:
         container_name: zookeeper3
         hostname: zk3
-        image: shebao/zk
+        image: fjcanyue/zookeeper
         restart: always
         expose:
             - "2181"
@@ -109,7 +109,7 @@ services:
     zookeeper1:
         container_name: zookeeper1
         hostname: zk1
-        image: shebao/zk
+        image: fjcanyue/zookeeper
         restart: always
         expose:
             - "2181"
@@ -129,7 +129,7 @@ docker-compose.yml on matchine 2
     zookeeper2:
         container_name: zookeeper2
         hostname: zk2
-        image: shebao/zk
+        image: fjcanyue/zookeeper
         restart: always
         expose:
             - "2181"
@@ -150,7 +150,7 @@ docker-compose.yml on matchine 3
     zookeeper3:
         container_name: zookeeper3
         hostname: zk3
-        image: shebao/zk
+        image: fjcanyue/zookeeper
         restart: always
         expose:
             - "2181"
